@@ -30,7 +30,7 @@
 
 .slider-wrapper {
     position: relative;
-    padding: 70rem;
+    max-width: 48rem;
     margin: 0 auto;
 }
 
