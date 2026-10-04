@@ -2,6 +2,28 @@
     padding: 2rem;
 }
 
+.transport-card {
+    border-radius: 2rem;
+}
+
+.transport-card img {
+    border-top-left-radius: 2rem;   /* Keep top rounded corners */
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 0;   /* Flatten bottom corners */
+    border-bottom-right-radius: 0;
+}
+
+.challenge-card {
+    border-radius: 2rem;
+}
+
+.challenge-card img {
+    border-top-left-radius: 2rem;   /* Keep top rounded corners */
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 0;   /* Flatten bottom corners */
+    border-bottom-right-radius: 0;
+}
+
 .impact{
     padding: 2rem;
 }
@@ -19,7 +41,8 @@
 }
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -104,4 +127,157 @@
 
 .slider-nav2 a:hover {
     opacity: 2;
+}
+
+.Autoshow {
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Autoshow2 {
+    animation: text-appear2 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear2 {
+    from {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(50px);
+    }
+}
+
+.Autoshow3 {
+    animation: text-appear3 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear3 {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(50px);
+    }
+}
+
+.Autoshow4 {
+    animation: text-appear4 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear4 {
+    from {
+        opacity: 0;
+        transform: translate(0px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.Autoshow5 {
+    animation: text-appear5 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear5 {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50px);
+    }
+}
+
+.Autoshow1-1 {
+    animation: text-appear1-1 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear1-1 {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+        to {
+        opacity: 1;
+        transform: translateX(-50px);
+    }
+}
+
+.Autoshow1-2 {
+    animation: text-appear1-2 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear1-2 {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
+    }
+        to {
+        opacity: 1;
+        transform: translateX(50px);
+    }
+}
+
+.Autoshow2-1 {
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Autoshow2-2{
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 90% cover 100vh;
+}
+
+@keyframes text-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
