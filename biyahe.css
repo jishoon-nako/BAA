@@ -42,7 +42,6 @@
 .slider {
     display: flex;
     aspect-ratio: auto;
-    width: 100%;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -65,8 +64,6 @@
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
-    width: 100%;
-    aspect-ratio: 16/9;
 }
 
 .slider2 img {
